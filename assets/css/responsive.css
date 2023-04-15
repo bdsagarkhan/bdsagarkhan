@@ -1,0 +1,177 @@
+/* Extra small devices ( portrait phones, 575px and down) */
+@media only screen and (max-width: 575.98px) {
+	/*reuseable component start*/
+	.pad_top_bot {
+	    padding: 50px 0;
+	}
+	aside.aside {
+		left: -100% !important;
+		width: 100%;
+		max-width: 320px;
+		z-index: 9;
+	}
+	.page_wrapper {
+	    width: 100%;
+	    margin-left: 0;
+	}
+	/*home*/
+	.hero_img_wrap {
+	    width: 158px;
+	    height: 158px;
+	}
+	.its_me span {
+	    font-size: 16px;
+	    background-color: #f29371;
+	}
+	.name_holder h1 {
+		margin-top: 50px;
+	    font-size: 50px;
+	}
+	/*about*/
+	.about_short_contact li {
+	    width: 100%;
+	    line-height: 22px;
+	}
+	.about_title h2 {
+		font-size: 19px;
+	}
+	.hire_wrapper h1 {
+	    font-size: 35px;
+	    font-weight: 700;
+	    line-height: 45px;
+	}
+	/*experience*/
+	.text_big {
+	    font-size: 170px;
+	    line-height: 170px;
+	}
+	.experience_text {
+	    font-size: 30px;
+	}
+	.worldwide {
+	    letter-spacing: 2px;
+	}
+	/*testimonial*/
+	.definitions_wrap {
+	    min-height: 150px;
+	}
+	/*services*/
+	.service_wrapper {
+	    min-height: 250px;
+	}
+	/*footer*/
+	.footer {
+		padding: 25px 0;
+	}
+	.backtotop_wrapper {
+	    bottom: 14px;
+	}
+
+}
+
+/* Small devices >> sm (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	/*reuseable component start*/
+	.pad_top_bot {
+	    padding: 50px 0;
+	}
+	aside.aside {
+		left: -100% !important;
+		width: 100%;
+		max-width: 320px;
+		z-index: 9;
+	}
+	.page_wrapper {
+	    width: 100%;
+	    margin-left: 0;
+	}
+	.about_short_contact li {
+	    line-height: 22px;
+	}
+	.hire_wrapper h1 {
+	    font-size: 35px;
+	    font-weight: 700;
+	    line-height: 45px;
+	}
+	/*experience*/
+	.text_big {
+	    font-size: 200px;
+	    line-height: 200px;
+	}
+	.experience_text {
+	    font-size: 30px;
+	}
+	.worldwide {
+	    letter-spacing: 2px;
+	}
+	/*testimonial*/
+	.definitions_wrap {
+	    min-height: 100px;
+	}
+	/*services*/
+	.service_wrapper {
+	    min-height: 290px;
+	}
+	/*footer*/
+	.footer {
+		padding: 25px 0;
+	}
+	.backtotop_wrapper {
+	    bottom: 14px;
+	}
+
+}
+
+/* Medium devices >> md (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	/*reuseable component start*/
+	.pad_top_bot {
+	    padding: 70px 0;
+	}
+	aside.aside {
+		left: -100% !important;
+		width: 100%;
+		max-width: 320px;
+		z-index: 9;
+	}
+	.page_wrapper {
+	    width: 100%;
+	    margin-left: 0;
+	}
+	.about_short_contact li {
+	    line-height: 22px;
+	}
+	/*services*/
+	.service_wrapper {
+	    min-height: 310px;
+	}
+	/*contact*/
+	.contact_icon.text-center {
+	    padding: 8px 0;
+	}
+}
+
+/* Large devices >> lg (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+	.about_title h2 {
+	    font-size: 30px;
+	    font-weight: 700;
+	}
+	.about_short_contact li {
+	    line-height: 22px;
+	}
+	/*services*/
+	.service_wrapper {
+	    min-height: 290px;
+	}
+	/*contact*/
+	.contact_icon.text-center {
+	    padding: 10px 0;
+	}
+}
+
+/* Extra large devices >> xl (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Extra Extra large devices >> xxl (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {}
